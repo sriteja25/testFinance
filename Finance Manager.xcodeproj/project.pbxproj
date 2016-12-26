@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3761D636A1BF33BDC7FE6342 /* Pods_Finance_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127271506823AFD20F8D4C48 /* Pods_Finance_Manager.framework */; };
+		CB2447EC1E01175D0031C406 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2447EB1E01175D0031C406 /* CardDetailsViewController.swift */; };
+		CB2447F41E0125060031C406 /* axis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2447EF1E0125060031C406 /* axis.jpg */; };
+		CB2447F51E0125060031C406 /* boi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2447F01E0125060031C406 /* boi.jpg */; };
+		CB2447F61E0125060031C406 /* hdfc card.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2447F11E0125060031C406 /* hdfc card.png */; };
+		CB2447F71E0125060031C406 /* icici.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2447F21E0125060031C406 /* icici.jpg */; };
+		CB2447F81E0125060031C406 /* sbi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2447F31E0125060031C406 /* sbi.jpg */; };
+		CB323E631E07A31900DF8487 /* ConstantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB323E621E07A31900DF8487 /* ConstantsViewController.swift */; };
+		CB323E651E07B7BB00DF8487 /* aass.png in Resources */ = {isa = PBXBuildFile; fileRef = CB323E641E07B7BB00DF8487 /* aass.png */; };
+		CB3D76B31DFFB79100E1D941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D76B21DFFB79100E1D941 /* AppDelegate.swift */; };
+		CB3D76B51DFFB79200E1D941 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D76B41DFFB79200E1D941 /* SignInViewController.swift */; };
+		CB3D76B81DFFB79200E1D941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3D76B61DFFB79200E1D941 /* Main.storyboard */; };
+		CB3D76BA1DFFB79200E1D941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3D76B91DFFB79200E1D941 /* Assets.xcassets */; };
+		CB3D76BD1DFFB79200E1D941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3D76BB1DFFB79200E1D941 /* LaunchScreen.storyboard */; };
+		CB3D76C81DFFB79200E1D941 /* Finance_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D76C71DFFB79200E1D941 /* Finance_ManagerTests.swift */; };
+		CB3D76D31DFFB79200E1D941 /* Finance_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3D76D21DFFB79200E1D941 /* Finance_ManagerUITests.swift */; };
+		CB450BFC1E02A3130026132C /* InvestmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB450BFB1E02A3130026132C /* InvestmentsViewController.swift */; };
+		CB450BFF1E02A7100026132C /* bottom arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CB450BFD1E02A7100026132C /* bottom arrow.png */; };
+		CB450C001E02A7100026132C /* top_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CB450BFE1E02A7100026132C /* top_arrow.png */; };
+		CB48CF361E0047F500F539CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB48CF351E0047F500F539CE /* GoogleService-Info.plist */; };
+		CB4F99911E0DFBBE003C5F0F /* SWRevealViewController in Resources */ = {isa = PBXBuildFile; fileRef = CB4F99901E0DFBBD003C5F0F /* SWRevealViewController */; };
+		CB4F99941E0E09FD003C5F0F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4F99931E0E09FD003C5F0F /* SWRevealViewController.m */; };
+		CB4F99981E0E1177003C5F0F /* menuTableVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F99971E0E1177003C5F0F /* menuTableVCTableViewController.swift */; };
+		CB4F999A1E0EBAC8003C5F0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F99991E0EBAC8003C5F0F /* HomeViewController.swift */; };
+		CB4F999C1E0EBBE2003C5F0F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F999B1E0EBBE2003C5F0F /* MyPageViewController.swift */; };
+		CB4F999E1E0EBC6A003C5F0F /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F999D1E0EBC6A003C5F0F /* TransactionViewController.swift */; };
+		CB4F99A01E0EBCAB003C5F0F /* RewardsAndChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F999F1E0EBCAB003C5F0F /* RewardsAndChallengesViewController.swift */; };
+		CB4F99A21E0EC68B003C5F0F /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F99A11E0EC68B003C5F0F /* EditProfileViewController.swift */; };
+		CB7C36EE1E0B6EDA00740922 /* GetUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C36ED1E0B6EDA00740922 /* GetUserProfileViewController.swift */; };
+		CBB25BB11E09378B009AABF4 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB25BB01E09378B009AABF4 /* test.jpg */; };
+		CBC0B1661E0258AC008B69A6 /* BasicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC0B1651E0258AC008B69A6 /* BasicInfoViewController.swift */; };
+		CBC0F7AA1E01431B008902CF /* EwalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC0F7A91E01431B008902CF /* EwalletViewController.swift */; };
+		CBC0F7B01E0145EC008902CF /* buddy.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC0F7AC1E0145EC008902CF /* buddy.png */; };
+		CBC0F7B11E0145EC008902CF /* freecharge.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC0F7AD1E0145EC008902CF /* freecharge.png */; };
+		CBC0F7B21E0145EC008902CF /* jio money.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBC0F7AE1E0145EC008902CF /* jio money.jpg */; };
+		CBC0F7B31E0145EC008902CF /* paytm.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC0F7AF1E0145EC008902CF /* paytm.png */; };
+		CBD8915C1E09177A00E876D4 /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD8915B1E09177A00E876D4 /* TestingViewController.swift */; };
+		CBD9B0CA1E0284A00083D068 /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD9B0C91E0284A00083D068 /* StocksViewController.swift */; };
+		CBE62FA91DFFBF0B005A5D85 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE62FA81DFFBF0B005A5D85 /* logo.png */; };
+		CBE62FAB1DFFC1E5005A5D85 /* fb logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE62FAA1DFFC1E5005A5D85 /* fb logo.png */; };
+		CBE62FAF1DFFC375005A5D85 /* google.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE62FAE1DFFC375005A5D85 /* google.jpg */; };
+		CBE62FBC1DFFD1DE005A5D85 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CBE62FBB1DFFD1DE005A5D85 /* Podfile */; };
+		CBE9A3E71E08D2CE00F14C9A /* ImageToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE9A3E61E08D2CE00F14C9A /* ImageToTextViewController.swift */; };
+		CBF707B31E071EF200B616C6 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = CBF707B11E071EF200B616C6 /* tessdata */; };
+		CBF707B71E07209F00B616C6 /* y.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF707B61E07209F00B616C6 /* y.png */; };
+		CBF707BB1E07223800B616C6 /* bill.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF707BA1E07223800B616C6 /* bill.png */; };
+		CBF707BD1E0770D800B616C6 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF707BC1E0770D800B616C6 /* a.png */; };
+		CBF707C11E0778DC00B616C6 /* bill2.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF707C01E0778DC00B616C6 /* bill2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3D76C41DFFB79200E1D941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3D76A71DFFB79100E1D941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3D76AE1DFFB79100E1D941;
+			remoteInfo = "Finance Manager";
+		};
+		CB3D76CF1DFFB79200E1D941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3D76A71DFFB79100E1D941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3D76AE1DFFB79100E1D941;
+			remoteInfo = "Finance Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA41FF0CDBDBB41B9E9086D /* Pods-Finance Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Finance Manager/Pods-Finance Manager.release.xcconfig"; sourceTree = "<group>"; };
+		127271506823AFD20F8D4C48 /* Pods_Finance_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finance_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2447EA1E00DAE50031C406 /* Finance Manager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Finance Manager-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB2447EB1E01175D0031C406 /* CardDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+		CB2447EF1E0125060031C406 /* axis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = axis.jpg; sourceTree = "<group>"; };
+		CB2447F01E0125060031C406 /* boi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boi.jpg; sourceTree = "<group>"; };
+		CB2447F11E0125060031C406 /* hdfc card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdfc card.png"; sourceTree = "<group>"; };
+		CB2447F21E0125060031C406 /* icici.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icici.jpg; sourceTree = "<group>"; };
+		CB2447F31E0125060031C406 /* sbi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sbi.jpg; sourceTree = "<group>"; };
+		CB323E621E07A31900DF8487 /* ConstantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsViewController.swift; sourceTree = "<group>"; };
+		CB323E641E07B7BB00DF8487 /* aass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aass.png; sourceTree = "<group>"; };
+		CB3D76AF1DFFB79100E1D941 /* Finance Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3D76B21DFFB79100E1D941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB3D76B41DFFB79200E1D941 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CB3D76B71DFFB79200E1D941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB3D76B91DFFB79200E1D941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB3D76BC1DFFB79200E1D941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB3D76BE1DFFB79200E1D941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3D76C31DFFB79200E1D941 /* Finance ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3D76C71DFFB79200E1D941 /* Finance_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_ManagerTests.swift; sourceTree = "<group>"; };
+		CB3D76C91DFFB79200E1D941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3D76CE1DFFB79200E1D941 /* Finance ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3D76D21DFFB79200E1D941 /* Finance_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_ManagerUITests.swift; sourceTree = "<group>"; };
+		CB3D76D41DFFB79200E1D941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB450BFB1E02A3130026132C /* InvestmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentsViewController.swift; sourceTree = "<group>"; };
+		CB450BFD1E02A7100026132C /* bottom arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom arrow.png"; sourceTree = "<group>"; };
+		CB450BFE1E02A7100026132C /* top_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_arrow.png; sourceTree = "<group>"; };
+		CB48CF341E00454400F539CE /* Finance Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Finance Manager.entitlements"; sourceTree = "<group>"; };
+		CB48CF351E0047F500F539CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB4F99901E0DFBBD003C5F0F /* SWRevealViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SWRevealViewController; sourceTree = "<group>"; };
+		CB4F99921E0E09FD003C5F0F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		CB4F99931E0E09FD003C5F0F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		CB4F99971E0E1177003C5F0F /* menuTableVCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuTableVCTableViewController.swift; sourceTree = "<group>"; };
+		CB4F99991E0EBAC8003C5F0F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB4F999B1E0EBBE2003C5F0F /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		CB4F999D1E0EBC6A003C5F0F /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		CB4F999F1E0EBCAB003C5F0F /* RewardsAndChallengesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsAndChallengesViewController.swift; sourceTree = "<group>"; };
+		CB4F99A11E0EC68B003C5F0F /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		CB7C36ED1E0B6EDA00740922 /* GetUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserProfileViewController.swift; sourceTree = "<group>"; };
+		CBB25BB01E09378B009AABF4 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		CBC0B1651E0258AC008B69A6 /* BasicInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInfoViewController.swift; sourceTree = "<group>"; };
+		CBC0F7A91E01431B008902CF /* EwalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EwalletViewController.swift; sourceTree = "<group>"; };
+		CBC0F7AC1E0145EC008902CF /* buddy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddy.png; sourceTree = "<group>"; };
+		CBC0F7AD1E0145EC008902CF /* freecharge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freecharge.png; sourceTree = "<group>"; };
+		CBC0F7AE1E0145EC008902CF /* jio money.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jio money.jpg"; sourceTree = "<group>"; };
+		CBC0F7AF1E0145EC008902CF /* paytm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paytm.png; sourceTree = "<group>"; };
+		CBD8915B1E09177A00E876D4 /* TestingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
+		CBD9B0C91E0284A00083D068 /* StocksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
+		CBE62FA81DFFBF0B005A5D85 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CBE62FAA1DFFC1E5005A5D85 /* fb logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb logo.png"; sourceTree = "<group>"; };
+		CBE62FAE1DFFC375005A5D85 /* google.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = google.jpg; sourceTree = "<group>"; };
+		CBE62FBB1DFFD1DE005A5D85 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBE9A3E61E08D2CE00F14C9A /* ImageToTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageToTextViewController.swift; sourceTree = "<group>"; };
+		CBF707B11E071EF200B616C6 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		CBF707B61E07209F00B616C6 /* y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = y.png; sourceTree = "<group>"; };
+		CBF707BA1E07223800B616C6 /* bill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bill.png; sourceTree = "<group>"; };
+		CBF707BC1E0770D800B616C6 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		CBF707C01E0778DC00B616C6 /* bill2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bill2.png; sourceTree = "<group>"; };
+		CEB1AE4E67FEB35F92A7FB35 /* Pods-Finance Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Finance Manager/Pods-Finance Manager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3D76AC1DFFB79100E1D941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3761D636A1BF33BDC7FE6342 /* Pods_Finance_Manager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3D76C01DFFB79200E1D941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3D76CB1DFFB79200E1D941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1AD5FBE2FB82C26B97EEB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1AE4E67FEB35F92A7FB35 /* Pods-Finance Manager.debug.xcconfig */,
+				0AA41FF0CDBDBB41B9E9086D /* Pods-Finance Manager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A0D88AE92E04022BB7BD08F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				127271506823AFD20F8D4C48 /* Pods_Finance_Manager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB2447EE1E0124F30031C406 /* Banks Images */ = {
+			isa = PBXGroup;
+			children = (
+				CB2447EF1E0125060031C406 /* axis.jpg */,
+				CB2447F01E0125060031C406 /* boi.jpg */,
+				CB2447F11E0125060031C406 /* hdfc card.png */,
+				CB2447F21E0125060031C406 /* icici.jpg */,
+				CB2447F31E0125060031C406 /* sbi.jpg */,
+			);
+			name = "Banks Images";
+			sourceTree = "<group>";
+		};
+		CB3D76A61DFFB79100E1D941 = {
+			isa = PBXGroup;
+			children = (
+				CBE62FBB1DFFD1DE005A5D85 /* Podfile */,
+				CB3D76B11DFFB79100E1D941 /* Finance Manager */,
+				CB3D76C61DFFB79200E1D941 /* Finance ManagerTests */,
+				CB3D76D11DFFB79200E1D941 /* Finance ManagerUITests */,
+				CB3D76B01DFFB79100E1D941 /* Products */,
+				1C1AD5FBE2FB82C26B97EEB6 /* Pods */,
+				9A0D88AE92E04022BB7BD08F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3D76B01DFFB79100E1D941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D76AF1DFFB79100E1D941 /* Finance Manager.app */,
+				CB3D76C31DFFB79200E1D941 /* Finance ManagerTests.xctest */,
+				CB3D76CE1DFFB79200E1D941 /* Finance ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3D76B11DFFB79100E1D941 /* Finance Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CB4F99901E0DFBBD003C5F0F /* SWRevealViewController */,
+				CB48CF341E00454400F539CE /* Finance Manager.entitlements */,
+				CBE62FA11DFFBE27005A5D85 /* Images */,
+				CB3D76B61DFFB79200E1D941 /* Main.storyboard */,
+				CB2447EA1E00DAE50031C406 /* Finance Manager-Bridging-Header.h */,
+				CB3D76B21DFFB79100E1D941 /* AppDelegate.swift */,
+				CB4F99921E0E09FD003C5F0F /* SWRevealViewController.h */,
+				CB4F99931E0E09FD003C5F0F /* SWRevealViewController.m */,
+				CB3D76B41DFFB79200E1D941 /* SignInViewController.swift */,
+				CB2447EB1E01175D0031C406 /* CardDetailsViewController.swift */,
+				CBC0F7A91E01431B008902CF /* EwalletViewController.swift */,
+				CBC0B1651E0258AC008B69A6 /* BasicInfoViewController.swift */,
+				CBD9B0C91E0284A00083D068 /* StocksViewController.swift */,
+				CB450BFB1E02A3130026132C /* InvestmentsViewController.swift */,
+				CB323E621E07A31900DF8487 /* ConstantsViewController.swift */,
+				CBE9A3E61E08D2CE00F14C9A /* ImageToTextViewController.swift */,
+				CBD8915B1E09177A00E876D4 /* TestingViewController.swift */,
+				CB7C36ED1E0B6EDA00740922 /* GetUserProfileViewController.swift */,
+				CB4F99971E0E1177003C5F0F /* menuTableVCTableViewController.swift */,
+				CB4F99991E0EBAC8003C5F0F /* HomeViewController.swift */,
+				CB4F999B1E0EBBE2003C5F0F /* MyPageViewController.swift */,
+				CB4F999D1E0EBC6A003C5F0F /* TransactionViewController.swift */,
+				CB4F999F1E0EBCAB003C5F0F /* RewardsAndChallengesViewController.swift */,
+				CB4F99A11E0EC68B003C5F0F /* EditProfileViewController.swift */,
+				CBF707B11E071EF200B616C6 /* tessdata */,
+				CB3D76B91DFFB79200E1D941 /* Assets.xcassets */,
+				CB48CF351E0047F500F539CE /* GoogleService-Info.plist */,
+				CB3D76BB1DFFB79200E1D941 /* LaunchScreen.storyboard */,
+				CB3D76BE1DFFB79200E1D941 /* Info.plist */,
+			);
+			path = "Finance Manager";
+			sourceTree = "<group>";
+		};
+		CB3D76C61DFFB79200E1D941 /* Finance ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D76C71DFFB79200E1D941 /* Finance_ManagerTests.swift */,
+				CB3D76C91DFFB79200E1D941 /* Info.plist */,
+			);
+			path = "Finance ManagerTests";
+			sourceTree = "<group>";
+		};
+		CB3D76D11DFFB79200E1D941 /* Finance ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D76D21DFFB79200E1D941 /* Finance_ManagerUITests.swift */,
+				CB3D76D41DFFB79200E1D941 /* Info.plist */,
+			);
+			path = "Finance ManagerUITests";
+			sourceTree = "<group>";
+		};
+		CBC0F7AB1E0145E2008902CF /* Ewallets */ = {
+			isa = PBXGroup;
+			children = (
+				CBC0F7AC1E0145EC008902CF /* buddy.png */,
+				CBC0F7AD1E0145EC008902CF /* freecharge.png */,
+				CBC0F7AE1E0145EC008902CF /* jio money.jpg */,
+				CBC0F7AF1E0145EC008902CF /* paytm.png */,
+			);
+			name = Ewallets;
+			sourceTree = "<group>";
+		};
+		CBE62FA11DFFBE27005A5D85 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CBF707B61E07209F00B616C6 /* y.png */,
+				CBF707BC1E0770D800B616C6 /* a.png */,
+				CBF707BA1E07223800B616C6 /* bill.png */,
+				CBB25BB01E09378B009AABF4 /* test.jpg */,
+				CBF707C01E0778DC00B616C6 /* bill2.png */,
+				CB323E641E07B7BB00DF8487 /* aass.png */,
+				CB450BFD1E02A7100026132C /* bottom arrow.png */,
+				CB450BFE1E02A7100026132C /* top_arrow.png */,
+				CBC0F7AB1E0145E2008902CF /* Ewallets */,
+				CB2447EE1E0124F30031C406 /* Banks Images */,
+				CBE62FA81DFFBF0B005A5D85 /* logo.png */,
+				CBE62FAA1DFFC1E5005A5D85 /* fb logo.png */,
+				CBE62FAE1DFFC375005A5D85 /* google.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3D76AE1DFFB79100E1D941 /* Finance Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3D76D71DFFB79200E1D941 /* Build configuration list for PBXNativeTarget "Finance Manager" */;
+			buildPhases = (
+				A26BF5D32913D828EE248E5E /* [CP] Check Pods Manifest.lock */,
+				CB3D76AB1DFFB79100E1D941 /* Sources */,
+				CB3D76AC1DFFB79100E1D941 /* Frameworks */,
+				CB3D76AD1DFFB79100E1D941 /* Resources */,
+				DD7A7870BBB06E89FFCC3CFB /* [CP] Embed Pods Frameworks */,
+				A10BC234B5A3EE28E57E1112 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finance Manager";
+			productName = "Finance Manager";
+			productReference = CB3D76AF1DFFB79100E1D941 /* Finance Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB3D76C21DFFB79200E1D941 /* Finance ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3D76DA1DFFB79200E1D941 /* Build configuration list for PBXNativeTarget "Finance ManagerTests" */;
+			buildPhases = (
+				CB3D76BF1DFFB79200E1D941 /* Sources */,
+				CB3D76C01DFFB79200E1D941 /* Frameworks */,
+				CB3D76C11DFFB79200E1D941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3D76C51DFFB79200E1D941 /* PBXTargetDependency */,
+			);
+			name = "Finance ManagerTests";
+			productName = "Finance ManagerTests";
+			productReference = CB3D76C31DFFB79200E1D941 /* Finance ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB3D76CD1DFFB79200E1D941 /* Finance ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3D76DD1DFFB79200E1D941 /* Build configuration list for PBXNativeTarget "Finance ManagerUITests" */;
+			buildPhases = (
+				CB3D76CA1DFFB79200E1D941 /* Sources */,
+				CB3D76CB1DFFB79200E1D941 /* Frameworks */,
+				CB3D76CC1DFFB79200E1D941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3D76D01DFFB79200E1D941 /* PBXTargetDependency */,
+			);
+			name = "Finance ManagerUITests";
+			productName = "Finance ManagerUITests";
+			productReference = CB3D76CE1DFFB79200E1D941 /* Finance ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3D76A71DFFB79100E1D941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sriteja Chilakamarri";
+				TargetAttributes = {
+					CB3D76AE1DFFB79100E1D941 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5L5FPMLK7F;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					CB3D76C21DFFB79200E1D941 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB3D76AE1DFFB79100E1D941;
+					};
+					CB3D76CD1DFFB79200E1D941 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB3D76AE1DFFB79100E1D941;
+					};
+				};
+			};
+			buildConfigurationList = CB3D76AA1DFFB79100E1D941 /* Build configuration list for PBXProject "Finance Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3D76A61DFFB79100E1D941;
+			productRefGroup = CB3D76B01DFFB79100E1D941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3D76AE1DFFB79100E1D941 /* Finance Manager */,
+				CB3D76C21DFFB79200E1D941 /* Finance ManagerTests */,
+				CB3D76CD1DFFB79200E1D941 /* Finance ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3D76AD1DFFB79100E1D941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE62FAB1DFFC1E5005A5D85 /* fb logo.png in Resources */,
+				CBC0F7B31E0145EC008902CF /* paytm.png in Resources */,
+				CBF707B31E071EF200B616C6 /* tessdata in Resources */,
+				CBB25BB11E09378B009AABF4 /* test.jpg in Resources */,
+				CBE62FAF1DFFC375005A5D85 /* google.jpg in Resources */,
+				CB48CF361E0047F500F539CE /* GoogleService-Info.plist in Resources */,
+				CBE62FBC1DFFD1DE005A5D85 /* Podfile in Resources */,
+				CB323E651E07B7BB00DF8487 /* aass.png in Resources */,
+				CB450BFF1E02A7100026132C /* bottom arrow.png in Resources */,
+				CBC0F7B01E0145EC008902CF /* buddy.png in Resources */,
+				CBF707B71E07209F00B616C6 /* y.png in Resources */,
+				CB2447F51E0125060031C406 /* boi.jpg in Resources */,
+				CBC0F7B21E0145EC008902CF /* jio money.jpg in Resources */,
+				CBF707BD1E0770D800B616C6 /* a.png in Resources */,
+				CB4F99911E0DFBBE003C5F0F /* SWRevealViewController in Resources */,
+				CB3D76BD1DFFB79200E1D941 /* LaunchScreen.storyboard in Resources */,
+				CB3D76BA1DFFB79200E1D941 /* Assets.xcassets in Resources */,
+				CB2447F41E0125060031C406 /* axis.jpg in Resources */,
+				CB450C001E02A7100026132C /* top_arrow.png in Resources */,
+				CBC0F7B11E0145EC008902CF /* freecharge.png in Resources */,
+				CBF707C11E0778DC00B616C6 /* bill2.png in Resources */,
+				CB3D76B81DFFB79200E1D941 /* Main.storyboard in Resources */,
+				CB2447F81E0125060031C406 /* sbi.jpg in Resources */,
+				CBF707BB1E07223800B616C6 /* bill.png in Resources */,
+				CBE62FA91DFFBF0B005A5D85 /* logo.png in Resources */,
+				CB2447F61E0125060031C406 /* hdfc card.png in Resources */,
+				CB2447F71E0125060031C406 /* icici.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3D76C11DFFB79200E1D941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3D76CC1DFFB79200E1D941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A10BC234B5A3EE28E57E1112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Finance Manager/Pods-Finance Manager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26BF5D32913D828EE248E5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7A7870BBB06E89FFCC3CFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Finance Manager/Pods-Finance Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3D76AB1DFFB79100E1D941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE9A3E71E08D2CE00F14C9A /* ImageToTextViewController.swift in Sources */,
+				CBD9B0CA1E0284A00083D068 /* StocksViewController.swift in Sources */,
+				CB4F99981E0E1177003C5F0F /* menuTableVCTableViewController.swift in Sources */,
+				CB4F99A01E0EBCAB003C5F0F /* RewardsAndChallengesViewController.swift in Sources */,
+				CB450BFC1E02A3130026132C /* InvestmentsViewController.swift in Sources */,
+				CB7C36EE1E0B6EDA00740922 /* GetUserProfileViewController.swift in Sources */,
+				CB4F999A1E0EBAC8003C5F0F /* HomeViewController.swift in Sources */,
+				CBC0B1661E0258AC008B69A6 /* BasicInfoViewController.swift in Sources */,
+				CB4F99A21E0EC68B003C5F0F /* EditProfileViewController.swift in Sources */,
+				CB4F999C1E0EBBE2003C5F0F /* MyPageViewController.swift in Sources */,
+				CB3D76B51DFFB79200E1D941 /* SignInViewController.swift in Sources */,
+				CB323E631E07A31900DF8487 /* ConstantsViewController.swift in Sources */,
+				CB2447EC1E01175D0031C406 /* CardDetailsViewController.swift in Sources */,
+				CBD8915C1E09177A00E876D4 /* TestingViewController.swift in Sources */,
+				CB3D76B31DFFB79100E1D941 /* AppDelegate.swift in Sources */,
+				CB4F999E1E0EBC6A003C5F0F /* TransactionViewController.swift in Sources */,
+				CBC0F7AA1E01431B008902CF /* EwalletViewController.swift in Sources */,
+				CB4F99941E0E09FD003C5F0F /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3D76BF1DFFB79200E1D941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3D76C81DFFB79200E1D941 /* Finance_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3D76CA1DFFB79200E1D941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3D76D31DFFB79200E1D941 /* Finance_ManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3D76C51DFFB79200E1D941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3D76AE1DFFB79100E1D941 /* Finance Manager */;
+			targetProxy = CB3D76C41DFFB79200E1D941 /* PBXContainerItemProxy */;
+		};
+		CB3D76D01DFFB79200E1D941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3D76AE1DFFB79100E1D941 /* Finance Manager */;
+			targetProxy = CB3D76CF1DFFB79200E1D941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB3D76B61DFFB79200E1D941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3D76B71DFFB79200E1D941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB3D76BB1DFFB79200E1D941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3D76BC1DFFB79200E1D941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB3D76D51DFFB79200E1D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sriteja/Desktop/Finance Manager/Finance Manager/Finance Manager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB3D76D61DFFB79200E1D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sriteja/Desktop/Finance Manager/Finance Manager/Finance Manager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3D76D81DFFB79200E1D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB1AE4E67FEB35F92A7FB35 /* Pods-Finance Manager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finance Manager/Finance Manager.entitlements";
+				DEVELOPMENT_TEAM = 5L5FPMLK7F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+				);
+				INFOPLIST_FILE = "Finance Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.finatext.Finance-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB3D76D91DFFB79200E1D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA41FF0CDBDBB41B9E9086D /* Pods-Finance Manager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finance Manager/Finance Manager.entitlements";
+				DEVELOPMENT_TEAM = 5L5FPMLK7F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+					"$(PROJECT_DIR)/Finance\\ Manager",
+				);
+				INFOPLIST_FILE = "Finance Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.finatext.Finance-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB3D76DB1DFFB79200E1D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Finance ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.finatext.Finance-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Manager.app/Finance Manager";
+			};
+			name = Debug;
+		};
+		CB3D76DC1DFFB79200E1D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Finance ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.finatext.Finance-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Manager.app/Finance Manager";
+			};
+			name = Release;
+		};
+		CB3D76DE1DFFB79200E1D941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Finance ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.finatext.Finance-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Finance Manager";
+			};
+			name = Debug;
+		};
+		CB3D76DF1DFFB79200E1D941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Finance ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.finatext.Finance-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Finance Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3D76AA1DFFB79100E1D941 /* Build configuration list for PBXProject "Finance Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3D76D51DFFB79200E1D941 /* Debug */,
+				CB3D76D61DFFB79200E1D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3D76D71DFFB79200E1D941 /* Build configuration list for PBXNativeTarget "Finance Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3D76D81DFFB79200E1D941 /* Debug */,
+				CB3D76D91DFFB79200E1D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3D76DA1DFFB79200E1D941 /* Build configuration list for PBXNativeTarget "Finance ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3D76DB1DFFB79200E1D941 /* Debug */,
+				CB3D76DC1DFFB79200E1D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3D76DD1DFFB79200E1D941 /* Build configuration list for PBXNativeTarget "Finance ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3D76DE1DFFB79200E1D941 /* Debug */,
+				CB3D76DF1DFFB79200E1D941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB3D76A71DFFB79100E1D941 /* Project object */;
+}
